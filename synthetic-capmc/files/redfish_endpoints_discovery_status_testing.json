@@ -1,0 +1,18 @@
+[
+   {
+      "ID":"x2014c0s24b0",
+      "LastDiscoveryStatus":"NotYetQueried"
+   },
+   {
+      "ID":"x2014c0s24b1",
+      "LastDiscoveryStatus":"NotYetQueried"
+   },
+   {
+      "ID":"x2014c0s24b2",
+      "LastDiscoveryStatus":"VerificationFailed"
+   },
+   {
+      "ID":"x2014c0s24b3",
+      "LastDiscoveryStatus":"ChildVerificationFailed"
+   }
+]

@@ -1,0 +1,41 @@
+version: '3'
+services:
+  cray-smd:
+    build:
+      context: synthetic-hsm
+      dockerfile: Dockerfile
+  cray-sls:
+    build:
+      context: synthetic-sls
+      dockerfile: Dockerfile
+  cray-capmc:
+    build:
+      context: synthetic-capmc
+      dockerfile: Dockerfile
+  rediscovery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      HSM_HOST_WITH_PORT: cray-smd:27779
+      HSM_BASE_PATH:
+      SLS_HOST_WITH_PORT: cray-sls:8376
+      CAPMC_HOST_WITH_PORT: cray-capmc:37777
+      LOG_LEVEL: DEBUG
+      SLEEP_LENGTH: 1
+    depends_on:
+      - cray-sls
+      - cray-capmc
+      - cray-smd
+    extra_hosts:
+      - "x2014c0s23b0:127.0.0.1"
+      - "x2014c0s23b1:127.0.0.1"
+#      - "x2014c0s23b2:127.0.0.1"  #NOT PINGABLE on purpose
+      - "x2014c0s24b0:127.0.0.1"
+      - "x2014c0s24b1:127.0.0.1"
+      - "x2014c0s24b2:127.0.0.1"
+      - "x2014c0s24b3:127.0.0.1"
+
+      - "x2014c0s29b2:127.0.0.1"
+      - "x2014c0s29b1:127.0.0.1"
+      - "x5000c1s1b1:127.0.0.1"

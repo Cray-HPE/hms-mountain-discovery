@@ -1,0 +1,1452 @@
+{
+  "RedfishEndpoints": [
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.406601Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c7b0"
+    }, 
+    {
+      "Domain": "", 
+      "MACAddr": "a4bf013eca65", 
+      "UUID": "6e925ce8-e5a4-45fd-b6f1-f746555143eb", 
+      "RediscoverOnUpdate": true, 
+      "Hostname": "10.254.0.15", 
+      "Enabled": true, 
+      "FQDN": "10.254.0.15", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-18T20:48:43.900805Z", 
+        "RedfishVersion": "1.1.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x3000c0s19b4"
+    }, 
+    {
+      "Domain": "", 
+      "MACAddr": "a4bf013ee097", 
+      "UUID": "1a389b14-7eaf-48ad-b751-591c0d62576e", 
+      "RediscoverOnUpdate": true, 
+      "Hostname": "10.254.0.12", 
+      "Enabled": true, 
+      "FQDN": "10.254.0.12", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-18T20:49:42.039874Z", 
+        "RedfishVersion": "1.1.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x3000c0s19b1"
+    }, 
+    {
+      "Domain": "", 
+      "MACAddr": "a4bf013eefdb", 
+      "UUID": "c37c90c5-213c-4c12-9825-392f49ee0625", 
+      "RediscoverOnUpdate": true, 
+      "Hostname": "10.254.0.13", 
+      "Enabled": true, 
+      "FQDN": "10.254.0.13", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-18T20:50:22.601884Z", 
+        "RedfishVersion": "1.1.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x3000c0s19b2"
+    }, 
+    {
+      "Domain": "", 
+      "MACAddr": "a4bf013ef9d1", 
+      "UUID": "e8693efb-de86-4959-92cf-021a3a79ff22", 
+      "RediscoverOnUpdate": true, 
+      "Hostname": "10.254.0.14", 
+      "Enabled": true, 
+      "FQDN": "10.254.0.14", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-18T20:58:39.312763Z", 
+        "RedfishVersion": "1.1.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x3000c0s19b3"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.330134Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c1r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:42.227221Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s2b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s2b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.287206Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c6r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.503815Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.285263Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c5b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:23:21.206598Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c1s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T15:42:56.906397Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c0r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.291047Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c3r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.205083Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s4b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s4b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:30:40.244823Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s6b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s6b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:06.806461Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c3s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:34.396561Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c3r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.417663Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c2b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:31.453847Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s2b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s2b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:42.332787Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s4b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s4b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.293467Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c2r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.467809Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c1r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:34.337094Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c7r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:27.200150Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c5r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:41:50.813307Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.345089Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c5r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.410432Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T15:50:12.404929Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c4b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.345836Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4r3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c4r3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T20:46:53.651632Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c6b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:23:23.814987Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c1s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:46.676194Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s3b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s3b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:23:23.854041Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c1s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:34:52.024170Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c6s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T15:42:52.647008Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c0r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:31.490313Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s4b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s4b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.248104Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s4b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s4b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:42.380875Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T15:43:54.078116Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c0s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:42.372318Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c0s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.280994Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c2r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.243004Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c3s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:34:53.739990Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c6s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:02.984519Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s7b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s7b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:31.457585Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s6b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s6b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:02.747468Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c6s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:21.063034Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.194551Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s3b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s3b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:02.904225Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c0s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:02.777663Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.249602Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s3b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s3b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:34:52.080255Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:41:54.080762Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c7s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.250824Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c7s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:35:03.446676Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s4b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s4b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.285829Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s5b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s5b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.224520Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s6b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s6b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:41:53.983477Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c6s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:31.431763Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": false, 
+      "FQDN": "x1000c4s2b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s2b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:41:54.013755Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": false, 
+      "FQDN": "x1000c7s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c7s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:41:50.877093Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c3s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:34:52.102097Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c7s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.204611Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c3s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c3s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T20:40:46.289661Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s5b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s5b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:34:52.103205Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s2b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s2b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T21:29:42.253131Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s4b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s4b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-23T15:11:22.239030Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s3b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s3b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.787806Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-22T15:43:54.180485Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c0s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:23:23.936213Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c1s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c1s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.343026Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c6r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c6r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.340881Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c4r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.805487Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s5b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s5b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:18:19.361846Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c7r7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "RouterBMC", 
+      "ID": "x1000c7r7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:24.006396Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.791218Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s0b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s0b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:21.119749Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s1b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s1b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:24.005038Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s6b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s6b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.734005Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.862703Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s5b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s5b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:24.045238Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s7b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s7b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.836997Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s5b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s5b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:24.015299Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.846840Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s2b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s2b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.846145Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s1b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s1b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.910728Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c5s6b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c5s6b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.883411Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s2b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s2b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:23.965524Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c4s5b1", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c4s5b1"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T20:17:19.957996Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c0b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "ChassisBMC", 
+      "ID": "x1000c0b0"
+    }, 
+    {
+      "Domain": "", 
+      "DiscoveryInfo": {
+        "LastDiscoveryAttempt": "2019-10-21T18:42:24.031448Z", 
+        "RedfishVersion": "1.2.0", 
+        "LastDiscoveryStatus": "DiscoverOK"
+      }, 
+      "RediscoverOnUpdate": false, 
+      "Hostname": "", 
+      "Enabled": true, 
+      "FQDN": "x1000c2s6b0", 
+      "User": "root", 
+      "Password": "testpassword", 
+      "Type": "NodeBMC", 
+      "ID": "x1000c2s6b0"
+    }
+  ]
+}

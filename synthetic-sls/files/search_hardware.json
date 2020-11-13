@@ -1,0 +1,189 @@
+[
+     {
+    "XName": "x1000c4b0",
+    "Type": "comptype_chassis_bmc",
+    "TypeString": "ChassisBMC",
+    "Class": "Mountain",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.100",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+   {
+    "XName": "x1000c5b0",
+    "Type": "comptype_chassis_bmc",
+    "TypeString": "ChassisBMC",
+    "Class": "Mountain",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.100",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+ {
+    "XName": "x0c0b0",
+    "Type": "comptype_chassis_bmc",
+    "TypeString": "ChassisBMC",
+    "Class": "Mountain",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.100",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s23",
+    "Xname": "x2014c0s23b0",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.100",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s23",
+    "Xname": "x2014c0s23b1",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.101",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s23",
+    "Xname": "x2014c0s23b2",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.102",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS, Not pingable"
+
+    }
+  },
+    {
+    "Parent": "x2014c0s24",
+    "Xname": "x2014c0s24b0",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.105",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s24",
+    "Xname": "x2014c0s24b1",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.106",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s24",
+    "Xname": "x2014c0s24b2",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.107",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS, Not pingable"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s24",
+    "Xname": "x2014c0s24b3",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.5.1.108",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "does not exist in HSM, exists in SLS, Not pingable"
+
+    }
+  },
+  {
+    "Parent": "x2014c0s29",
+    "Xname": "x2014c0s29b2",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.4.0.10",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "exists in HSM, and in SLS"
+    }
+  },
+    {
+    "Parent": "x2014c0s29",
+    "Xname": "x2014c0s29b1",
+    "Type": "comptype_ncard",
+    "Class": "River",
+    "TypeString": "NodeBMC",
+    "ExtraProperties": {
+      "IP4addr": "10.4.0.9",
+      "IP6addr": "DHCPv6",
+      "Network": "HMN",
+      "Password": "vault://tok",
+      "Username": "root",
+      "TESTING": "exists in HSM, and in SLS"
+    }
+  }
+]
