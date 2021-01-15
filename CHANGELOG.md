@@ -23,6 +23,14 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+
+## [0.3.0] - 2021-01-14
+
+### Changed
+
+- Updated license file.
+
+
 ## [0.2.0] - 2020-09-04
 
 ### Security
