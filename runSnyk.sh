@@ -1,17 +1,18 @@
+#! /bin/bash
 # MIT License
-
+#
 # (C) Copyright [2021] Hewlett Packard Enterprise Development LP
-
+#
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
 # to deal in the Software without restriction, including without limitation
 # the rights to use, copy, modify, merge, publish, distribute, sublicense,
 # and/or sell copies of the Software, and to permit persons to whom the
 # Software is furnished to do so, subject to the following conditions:
-
+#
 # The above copyright notice and this permission notice shall be included
 # in all copies or substantial portions of the Software.
-
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
@@ -20,41 +21,27 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-FROM dtr.dev.cray.com/baseos/alpine:3.12 AS build-base
+SNYK_OPTS="--dev --show-vulnerable-paths=all --fail-on=all --severity-threshold=${SEVERITY:-high} --skip-unresolved=true --org=hpe-cray-playground --json"
 
-# Configure pip to use the DST PIP Mirror
-ENV PIP_TRUSTED_HOST dst.us.cray.com
-ENV PIP_INDEX_URL http://$PIP_TRUSTED_HOST/dstpiprepo/simple/
+OUT=$(set -x; snyk test --all-projects --detection-depth=999 $SNYK_OPTS)
 
-COPY src/requirements.txt /
+PROJ_CHECK=OK
+jq .[].ok <<<"$OUT" | grep -q false && PROJ_CHECK=FAIL
 
-RUN set -ex \
-    && apk update \
-    && apk add --no-cache \
-        python3 \
-        py3-pip \
-        curl \
-    && pip3 install --upgrade \
-        pip \
-        setuptools \
-    && pip3 install -r /requirements.txt
+echo Snyk project check: $PROJ_CHECK
 
-FROM build-base
+DOCKER_CHECK=
+if [ -f Dockerfile ]; then
+    DOCKER_IMAGE=${PWD/*\//}:$(cat .version)
+    docker build --tag $DOCKER_IMAGE .
+    OUT=$(set -x; snyk test --docker $DOCKER_IMAGE --file=${PWD}/Dockerfile $SNYK_OPTS)
+    DOCKER_CHECK=OK
+    jq .ok <<<"$OUT" | grep -q false && DOCKER_CHECK=FAIL
+fi
 
-COPY src /app
-WORKDIR /app
+echo
+echo Snyk project check: $PROJ_CHECK
+echo Snyk docker check: $DOCKER_CHECK
 
-ENV LOG_LEVEL DEBUG
-ENV HSM_PROTOCOL http://
-ENV HSM_HOST_WITH_PORT cray-smd
-#ENV HSM_BASE_PATH /v1
-
-ENV SLS_PROTOCOL http://
-ENV SLS_HOST_WITH_PATH sls
-#ENV SLS_BASE_PATH = ""
-
-ENV SLEEP_LENGTH 30
-ENV FEATURE_FLAG_SLS True
-
-ENTRYPOINT ["python3"]
-CMD ["mountain_discovery.py"]
+test "$PROJ_CHECK" == OK -a "$DOCKER_CHECK" == OK
+exit $?
