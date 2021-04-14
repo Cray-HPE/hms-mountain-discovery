@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 <!--
 Guiding Principles:
 * Changelogs are for humans, not machines.
@@ -23,6 +24,12 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+## [0.4.1] - 2021-04-14
+
+### Changed
+
+- Updated Dockerfiles to pull base images from Artifactory instead of DTR.
+
 ## [0.4.0] - 2021-02-02
 
 ### Changed
@@ -34,7 +41,6 @@ Security - in case of vulnerabilities
 ### Changed
 
 - Updated license file.
-
 
 ## [0.2.0] - 2020-09-04
 
