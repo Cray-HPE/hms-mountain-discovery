@@ -20,11 +20,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-FROM dtr.dev.cray.com/baseos/alpine:3.12 AS build-base
-
-# Configure pip to use the DST PIP Mirror
-ENV PIP_TRUSTED_HOST dst.us.cray.com
-ENV PIP_INDEX_URL http://$PIP_TRUSTED_HOST/dstpiprepo/simple/
+FROM arti.dev.cray.com/baseos-docker-master-local/alpine:3.13 AS build-base
 
 COPY src/requirements.txt /
 
