@@ -15,7 +15,7 @@ pipeline {
         DESCRIPTION = "Utility for facilitating mountain discovery without having to run REDS"
         IS_STABLE = getBuildIsStable()
         VERSION = getDockerBuildVersion(isStable: env.IS_STABLE)
-        DOCKER_ARGS = getDockerBuildArgs(name: env.NAME, description: env.DESCRIPTION)
+        DOCKER_ARGS = getDockerBuildArgs(name: "cray-hms-mountain-discovery", description: env.DESCRIPTION, version: env.VERSION)
     }
 
     stages {
