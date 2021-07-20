@@ -1,0 +1,42 @@
+@Library('csm-shared-library') _
+
+pipeline {
+    agent {
+        label "metal-gcp-builder"
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: "10"))
+        timestamps()
+    }
+
+    environment {
+        NAME = "hms-mountain-discovery"
+        DESCRIPTION = "Utility for facilitating mountain discovery without having to run REDS"
+        IS_STABLE = getBuildIsStable()
+        VERSION = getDockerBuildVersion(isStable: env.IS_STABLE)
+        DOCKER_ARGS = getDockerBuildArgs(name: "cray-hms-mountain-discovery", description: env.DESCRIPTION, version: env.VERSION)
+    }
+
+    stages {
+        stage("Image") {
+            steps {
+                sh "make image"
+            }
+        }
+
+        stage("Run Unit Tests") {
+            steps {
+                sh "make unittest"
+            }
+        }
+
+        stage("Publish") {
+            steps {
+                script {
+                    publishCsmDockerImage(image: env.NAME, tag: env.VERSION, isStable: env.IS_STABLE)
+                }
+            }
+        }
+    }
+}
