@@ -24,6 +24,12 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+## [0.5.1] - 2021-08-10
+
+### Changed
+
+- Added GitHub configuration files.
+
 ## [0.5.0] - 2021-07-20
 
 ### Changed
