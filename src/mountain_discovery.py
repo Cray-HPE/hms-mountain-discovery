@@ -187,7 +187,7 @@ def main():
 
     component_endpoints = json.loads(result.text)
     for component_endpoint in component_endpoints['Components']:
-        if component_endpoint['State'] != 'Empty':
+        if component_endpoint['State'] != 'Empty' and component_endpoint['Enabled'] == True:
             targeted_hardware.append(component_endpoint['ID'])
 
     logging.info("targeted hardware: %s", str(targeted_hardware))
