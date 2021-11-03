@@ -134,6 +134,7 @@ def capmc_xname_on(xnames, reason):
     payload = {}
     payload['xnames'] = xnames
     payload['reason'] = reason
+    payload['continue'] = True
     headers = {
         'cache-control': "no-cache",
     }
