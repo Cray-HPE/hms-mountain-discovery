@@ -24,6 +24,13 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+## [0.7.0] - 2022-07-28
+
+### Changed
+
+- Updated hms-mountain-discovery to build using GitHub Actions instead of Jenkins.
+- Pull images from artifactory.algol60.net instead of arti.dev.cray.com.
+
 ## [0.6.0] - 2021-11-03
 
 ### Fixed
