@@ -32,7 +32,7 @@ fi
 
 # Configure docker compose
 export COMPOSE_PROJECT_NAME=$RANDOM
-export COMPOSE_FILE=docker-compose.yml
+export COMPOSE_FILE=docker-compose.test.unit.yaml
 
 args="-f $COMPOSE_FILE -p $COMPOSE_PROJECT_NAME"
 
