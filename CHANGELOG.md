@@ -24,18 +24,19 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
-## [0.7.0] - 2022-07-28
+## [0.7.0] - 2022-07-29
 
 ### Changed
 
 - Updated hms-mountain-discovery to build using GitHub Actions instead of Jenkins.
 - Pull images from artifactory.algol60.net instead of arti.dev.cray.com.
+- Updated and fixed runUnitTest.sh.
 
 ## [0.6.0] - 2021-11-03
 
 ### Fixed
 
-- Stop including disabled components in operations
+- Stop including disabled components in operations.
 
 ## [0.5.1] - 2021-08-10
 
