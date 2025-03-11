@@ -29,10 +29,15 @@ RUN set -ex \
     && apk add --no-cache \
         python3 \
         py3-pip \
+    && python3 -m venv /opt/venv \
+    && . /opt/venv/bin/activate \
     && pip3 install --upgrade \
         pip \
         setuptools \
     && pip3 install -r /requirements.txt
+
+# Set the PATH to include the virtual environment
+ENV PATH="/opt/venv/bin:$PATH"
 
 FROM build-base
 

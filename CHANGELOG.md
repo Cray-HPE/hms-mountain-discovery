@@ -29,6 +29,8 @@ Security - in case of vulnerabilities
 ### Security
 
 - Updated image dependencies for security updates
+- Updated docker compose file to use "docker compose"
+- Used virtual environment for pip installs in Dockerfiles
 
 ## [0.7.0] - 2022-07-29
 

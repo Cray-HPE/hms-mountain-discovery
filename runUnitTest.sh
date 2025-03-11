@@ -2,7 +2,7 @@
 
 # MIT License
 #
-# (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP
+# (C) Copyright 2021-2022,2025 Hewlett Packard Enterprise Development LP
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
@@ -40,7 +40,7 @@ echo "COMPOSE_PROJECT_NAME: ${COMPOSE_PROJECT_NAME}"
 echo "COMPOSE_FILE: $COMPOSE_FILE"
 
 function cleanup() {
-  docker-compose $args down
+  docker compose $args down
   if [[ $? -ne 0 ]]; then
     echo "Failed to decompose environment!"
     exit 1
@@ -51,8 +51,8 @@ function cleanup() {
 
 # Get the base containers running
 echo "Starting containers..."
-docker-compose $args build
-docker-compose $args up --exit-code-from rediscovery rediscovery
+docker compose $args build
+docker compose $args up --exit-code-from rediscovery rediscovery
 
 test_result=$?
 

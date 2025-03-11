@@ -37,6 +37,9 @@ RUN set -ex \
         setuptools \
     && pip3 install -r /requirements.txt
 
+# Set the PATH to include the virtual environment
+ENV PATH="/opt/venv/bin:$PATH"
+
 FROM build-base
 
 COPY src /app
