@@ -24,6 +24,12 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+## [0.8.0] - 2025-03-13
+
+### Security
+
+- Updated image dependencies for security updates
+
 ## [0.7.0] - 2022-07-29
 
 ### Changed

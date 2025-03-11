@@ -1,6 +1,6 @@
 # MIT License
 #
-# (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP
+# (C) Copyright 2021-2022,2025 Hewlett Packard Enterprise Development LP
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
@@ -20,7 +20,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-FROM artifactory.algol60.net/csm-docker/stable/docker.io/library/alpine:3.15 AS build-base
+FROM artifactory.algol60.net/csm-docker/stable/docker.io/library/alpine:3.21 AS build-base
 
 COPY src/requirements.txt /
 
@@ -30,6 +30,8 @@ RUN set -ex \
         python3 \
         py3-pip \
         curl \
+    && python3 -m venv /opt/venv \
+    && . /opt/venv/bin/activate \
     && pip3 install --upgrade \
         pip \
         setuptools \
@@ -40,17 +42,17 @@ FROM build-base
 COPY src /app
 WORKDIR /app
 
-ENV LOG_LEVEL DEBUG
-ENV HSM_PROTOCOL http://
-ENV HSM_HOST_WITH_PORT cray-smd
+ENV LOG_LEVEL=DEBUG
+ENV HSM_PROTOCOL=http://
+ENV HSM_HOST_WITH_PORT=cray-smd
 #ENV HSM_BASE_PATH /v1
 
-ENV SLS_PROTOCOL http://
-ENV SLS_HOST_WITH_PATH sls
+ENV SLS_PROTOCOL=http://
+ENV SLS_HOST_WITH_PATH=sls
 #ENV SLS_BASE_PATH = ""
 
-ENV SLEEP_LENGTH 30
-ENV FEATURE_FLAG_SLS True
+ENV SLEEP_LENGTH=30
+ENV FEATURE_FLAG_SLS=True
 
 ENTRYPOINT ["python3"]
 CMD ["mountain_discovery.py"]
