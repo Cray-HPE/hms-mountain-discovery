@@ -24,6 +24,15 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
+## [0.8.0] - 2025-03-14
+
+### Security
+
+- Updated image dependencies for security updates
+- Used virtual environment for pip installs in Dockerfiles
+- Fixed some build warnings in the Dockerfile
+- s/docker compose/docker-compose/ in docker compose file
+
 ## [0.7.0] - 2022-07-29
 
 ### Changed

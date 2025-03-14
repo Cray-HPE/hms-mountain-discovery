@@ -1,6 +1,6 @@
 # MIT License
 #
-# (C) Copyright 2021-2022 Hewlett Packard Enterprise Development LP
+# (C) Copyright 2021-2022,2025 Hewlett Packard Enterprise Development LP
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
@@ -20,7 +20,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-FROM artifactory.algol60.net/csm-docker/stable/docker.io/library/alpine:3.15 AS build-base
+FROM artifactory.algol60.net/csm-docker/stable/docker.io/library/alpine:3.21 AS build-base
 
 COPY requirements.txt /
 
@@ -30,15 +30,20 @@ RUN set -ex \
         python3 \
         py3-pip \
         curl \
+    && python3 -m venv /opt/venv \
+    && . /opt/venv/bin/activate \
     && pip3 install --upgrade \
         pip \
         setuptools \
     && pip3 install -r /requirements.txt
 
+# Set the PATH to include the virtual environment
+ENV PATH="/opt/venv/bin:$PATH"
+
 FROM build-base
 COPY . /app
 WORKDIR /app
-ENV LOG_LEVEL DEBUG
+ENV LOG_LEVEL=DEBUG
 EXPOSE 37777
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
