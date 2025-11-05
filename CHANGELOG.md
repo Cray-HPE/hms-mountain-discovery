@@ -24,7 +24,7 @@ Fixed - for any bug fixes
 Security - in case of vulnerabilities
 -->
 
-## [0.9.0] - 2025-11-06
+## [0.9.0] - 2025-11-05
 
 ### Security
 
